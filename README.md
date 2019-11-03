@@ -26,4 +26,4 @@ heroku login
 
 mvn heroku:deploy
 
-https://spark-heroku-mike.herokuapp.com/layout
+https://spark-heroku-mike.herokuapp.com/hello
