@@ -22,6 +22,8 @@ git remote add origin https://github.com/MichaelLynnCSU/HerokuSurgeSparkJavaScri
 
 ## Heroku Update Project
 
+Move to root project directory
+
 heroku login
 
 mvn heroku:deploy
