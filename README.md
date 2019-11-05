@@ -18,14 +18,18 @@ heroku login
 
 heroku git:remote -a spark-heroku-mike
 
-git remote add origin https://github.com/MichaelLynnCSU/HerokuSurgeSparkJavaScript
-
 ## Heroku Update Project
 
 Move to root project directory
 
 heroku login
 
-mvn heroku:deploy
+git add .
+
+git commit -m "Initial commit"
+
+git push heroku master
+
+heroku open
 
 https://spark-heroku-mike.herokuapp.com/hello
